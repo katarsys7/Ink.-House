@@ -1,7 +1,11 @@
-var newDiv = document.createElement('div');
-newDiv.textContent = 'alooooooooooooooooooooooooooo';
-newDiv.setAttribute('class', 'new-element');
-document.body.appendChild(newDiv);
+let SwitchMode= document.getElementById("SwitchMode");
 
-var elementToRemove = document.getElementById('div');
-elementToRemove.remove();
+SwitchMode.onclick = function() {
+    let theme = document.getElementById("theme");
+
+    if (theme.getAttribute("href")=="shop.css") {
+        theme.href = "dark_shop.css";
+    } else {
+        theme.href = "shop.css"
+    }
+}
