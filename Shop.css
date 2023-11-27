@@ -458,12 +458,21 @@
     line-height: 120%; /* 14.4px */
     margin-top: 6px;
 }
-.dark_button{
+.green_button{
     padding: 8px;
     background-color: greenyellow;
     color: black;
     border: black;
     border-radius: 50px;
     font-size: 20px;
+}
+.divxd{
+    padding: 8px;
+    background-color: none;
+    color: black;
+    border: black;
+    border-radius: 50px;
+    font-size: 20px;
+    width: 25%
 }
 
